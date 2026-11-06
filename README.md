@@ -159,3 +159,6 @@ retraining**, as required.
 
 Python · scikit-learn · pandas · NumPy · Streamlit · matplotlib · seaborn ·
 joblib
+
+**Live Streamlit app:** 
+`https://online-shoppers-purchase-prediction-tj35svftdaxaqjtqh4fvql.streamlit.app/`
