@@ -1,0 +1,66 @@
+{
+  "dataset": "UCI Online Shoppers Purchasing Intention",
+  "n_rows_after_dedup": 12205,
+  "n_features": 17,
+  "n_train": 9764,
+  "n_test": 2441,
+  "positive_rate": 0.1563,
+  "random_state": 42,
+  "results": {
+    "Logistic Regression": {
+      "metrics": {
+        "Accuracy": 0.8894,
+        "AUC": 0.9022,
+        "Precision": 0.7718,
+        "Recall": 0.4162,
+        "F1": 0.5408,
+        "MCC": 0.5142
+      },
+      "train_accuracy": 0.8827
+    },
+    "Decision Tree": {
+      "metrics": {
+        "Accuracy": 0.8599,
+        "AUC": 0.7453,
+        "Precision": 0.5498,
+        "Recall": 0.5785,
+        "F1": 0.5638,
+        "MCC": 0.4806
+      },
+      "train_accuracy": 1.0
+    },
+    "K-Nearest Neighbors": {
+      "metrics": {
+        "Accuracy": 0.8787,
+        "AUC": 0.8539,
+        "Precision": 0.7337,
+        "Recall": 0.3534,
+        "F1": 0.477,
+        "MCC": 0.4536
+      },
+      "train_accuracy": 0.8862
+    },
+    "Naive Bayes": {
+      "metrics": {
+        "Accuracy": 0.7108,
+        "AUC": 0.8268,
+        "Precision": 0.3284,
+        "Recall": 0.8115,
+        "F1": 0.4676,
+        "MCC": 0.3757
+      },
+      "train_accuracy": 0.6987
+    },
+    "Support Vector Machine": {
+      "metrics": {
+        "Accuracy": 0.8943,
+        "AUC": 0.8798,
+        "Precision": 0.7403,
+        "Recall": 0.5,
+        "F1": 0.5969,
+        "MCC": 0.5524
+      },
+      "train_accuracy": 0.9062
+    }
+  }
+}
